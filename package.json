@@ -4,8 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Shivam-Mishra20.github.io/Dice_Game",
-  
-
   "scripts": {
     "deploy": "vite build && gh-pages -d dist",
     "predeploy": "vite build",
