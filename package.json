@@ -1,12 +1,14 @@
 {
   "name": "dicegame",
   "private": true,
+  "homepage": "https://Shivam-Mishra20.github.io/Dice_Game",
+ 
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Shivam-Mishra20.github.io/Dice_Game",
+  
   "scripts": {
     "deploy": "vite build && gh-pages -d dist",
-    "predeploy": "vite build",
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
