@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import Rules from './Rules'
 import img from '/images/dice/dice_1.png'
+
+ 
 import styled from 'styled-components'
 
-const RoleDice = ({ currentDice, setcurrentDice, Roledices, score, setscore }) => {
-
+const RoleDice = ({currentDice, setcurrentDice, Roledices, score, setscore }) => {
+   
     const [rules, setrules] = useState(false)
     //for updating and roling of dice use state
 
@@ -19,7 +21,7 @@ const RoleDice = ({ currentDice, setcurrentDice, Roledices, score, setscore }) =
 
         <DiceContainer>
             <div onClick={Roledices}>
-                <img src={`/images/dice/dice_${currentDice}.png`} alt="dice_1" className=' w-28' />
+                <img src={`images/dice/dice_${currentDice}.png`} alt=" " className=' w-28' />
             </div>
 
             <div className=' flex flex-col'>
